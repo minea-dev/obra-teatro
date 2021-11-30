@@ -1,10 +1,3 @@
-# Curriculum Vitae - Minea Licer Silvestre
-PEC 1 de la asignatura Herramientas HTML y CSS II
-
-<<<<<<< HEAD
-UOC Boilerplate is a starter template for the HTML and CSS Tools courses from the [Master's Program in Multimedia Applications](https://estudis.uoc.edu/ca/masters-universitaris/aplicacions-multimedia/presentacio) and the [Master's Program in Web App and Website Development](https://estudis.uoc.edu/ca/masters-universitaris/desenvolupament-llocs-aplicacions-web/presentacio) at the [Universitat Oberta de Catalunya](https://www.uoc.edu). It aims to provide a basic, modern frontend web development starter pack based on Parcel and including a Sass compiler, an ES6 transpiler, minifiers, an image transformer, and development tools.
-
-This is the 3.x version of UOC Boilerplate, available since the UOC 2020-2 semester.
 
 ## Requirements
 
@@ -61,6 +54,3 @@ Always run the following commands during the development stage and for productio
 
 Feel free to create a [new issue](https://github.com/uoc-advanced-html-css/uoc-boilerplate/issues/new/) or drop me a line at jorditarrida@uoc.edu.
 
-Are you using this Boilerplate for your projects or for educational purposes? I would love to hear about it!
-=======
->>>>>>> 4f753b8cf40663e33f2835d4de0d970434ad67e2
