@@ -1,10 +1,4 @@
 {
   "extends": "stylelint-config-recommended-scss",
-<<<<<<< HEAD
-  "rules": {
-    "selector-class-pattern": "^.[a-z]([a-z0-9-]+)?(__([a-z0-9]+-?)+)?(--([a-z0-9]+-?)+){0,2}$"
-  }
-=======
   "rules": {"selector-class-pattern": "^.[a-z]([a-z0-9-]+)?(__([a-z0-9]+-?)+)?(--([a-z0-9]+-?)+){0,2}$"}
->>>>>>> 4f753b8cf40663e33f2835d4de0d970434ad67e2
 }
