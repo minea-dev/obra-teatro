@@ -1,0 +1,78 @@
+.header {
+    width: 100%;
+    &__nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 10vh;
+        background-color: $color1;
+        color: $base;
+        a {
+            color: $base;
+        }
+        h1 {
+            display: flex;
+            flex-direction: column;
+            text-align: right;
+            line-height: 1;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        h1 a {
+            font-weight: $bold;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            font-size: $h1size;
+        }
+        .links {
+            display: flex;
+            justify-content: space-around;
+            width: 20%;
+            font-size: $size3;
+            font-weight: $medium;
+            li {
+                list-style: none;
+                margin-left: 10px;
+                margin-right: 10px;
+                a:hover {
+                    color: $color2;
+                    transition: color 200ms ease-in-out;
+                }
+            }
+        }
+        .burger {
+            display: none;
+            cursor: pointer;
+        }
+        .burger div {
+            width: 25px;
+            height: 3px;
+            background-color: $base;
+            margin: 5px;
+        }
+    }
+}
+
+@media screen and (max-width: $medium-size) {
+    body {
+        overflow-x: hidden;
+    }
+    .header .header__nav .links {
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 14vh;
+        background-color: $color1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        li {
+            opacity: 0;
+        }
+    }
+    .header .header__nav .burger {
+        display: block;
+    }
+}
